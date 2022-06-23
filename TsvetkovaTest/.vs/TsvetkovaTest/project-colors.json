@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bc58d1ee-6d20-42d1-8967-f0d45b886b38": {
+      "ProjectGuid": "bc58d1ee-6d20-42d1-8967-f0d45b886b38",
+      "DisplayName": "TsvetkovaTest",
+      "ColorIndex": 0
+    },
+    "82540733-7d7a-4677-b633-08d735a75055": {
+      "ProjectGuid": "82540733-7d7a-4677-b633-08d735a75055",
+      "DisplayName": "DXApplication1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
