@@ -3013,11 +3013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\DXApplication1\\DXApplication1\\DXApplication1.csproj",
+      "projectUniqueName": "D:\\work\\Новая папка\\DXApplication1\\DXApplication1\\DXApplication1.csproj",
       "projectName": "DXApplication1",
-      "projectPath": "D:\\work\\DXApplication1\\DXApplication1\\DXApplication1.csproj",
+      "projectPath": "D:\\work\\Новая папка\\DXApplication1\\DXApplication1\\DXApplication1.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\DXApplication1\\DXApplication1\\obj\\",
+      "outputPath": "D:\\work\\Новая папка\\DXApplication1\\DXApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",

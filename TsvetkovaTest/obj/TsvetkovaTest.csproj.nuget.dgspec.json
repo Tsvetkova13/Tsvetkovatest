@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\TsvetkovaTest\\TsvetkovaTest.csproj": {}
+    "D:\\work\\Новая папка\\TsvetkovaTest\\TsvetkovaTest.csproj": {}
   },
   "projects": {
-    "D:\\work\\TsvetkovaTest\\TsvetkovaTest.csproj": {
+    "D:\\work\\Новая папка\\TsvetkovaTest\\TsvetkovaTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\TsvetkovaTest\\TsvetkovaTest.csproj",
+        "projectUniqueName": "D:\\work\\Новая папка\\TsvetkovaTest\\TsvetkovaTest.csproj",
         "projectName": "TsvetkovaTest",
-        "projectPath": "D:\\work\\TsvetkovaTest\\TsvetkovaTest.csproj",
+        "projectPath": "D:\\work\\Новая папка\\TsvetkovaTest\\TsvetkovaTest.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\TsvetkovaTest\\obj\\",
+        "outputPath": "D:\\work\\Новая папка\\TsvetkovaTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",

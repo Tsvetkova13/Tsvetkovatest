@@ -21,19 +21,11 @@ namespace TsvetkovaTest.Controllers
 
         [HttpPost]
 
-        public double Post()
+        public DataInput Post()
         {
-            return 0;
+            DataService dataService = new();
+            return dataService.DataInput();
         }
-        [HttpPut]
-        public double Put()
-        {
-            return 0;
-        }
-        [HttpDelete]
-        public double Delete()
-        {
-            return 0;
-        }
+       
     }
 }

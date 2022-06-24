@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DevExpress.Mvvm;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace DXApplication1
 {
@@ -25,6 +27,20 @@ namespace DXApplication1
         {
             InitializeComponent();
         }
+
+        static HttpClient client = new HttpClient();
+
+        /*static async Task<Employee> GetEmployeeAsync()
+        {
+            Employee stuffServer = null;
+            HttpResponseMessage response = await client.GetAsync("http://localhost:5251/api/Test");
+            if (response.IsSuccessStatusCode)
+            {
+                stuffServer = await response.Content.ReadAsAsync<Employee>();
+            }
+            return stuffServer;
+        }*/
+
     }
     public class Employee
     {

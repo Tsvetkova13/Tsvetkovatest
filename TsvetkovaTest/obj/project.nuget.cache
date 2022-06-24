@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M7vWOk6c/yckA4kO0H/t66X/mQGheZDmwu7atmJHSoCNpCmD0BNoNs44xldwcnr7lnzWaDHxsAziLVkxYzxI5g==",
+  "dgSpecHash": "V614KwkbIjgeapbaD4iSu2kNfMwoQZbj5/u2VNvv1LvJiN9z+QisDKJnonJKerKmV5rMn7mD0P8Xuk7fVr+SoA==",
   "success": true,
-  "projectFilePath": "D:\\work\\TsvetkovaTest\\TsvetkovaTest.csproj",
+  "projectFilePath": "D:\\work\\Новая папка\\TsvetkovaTest\\TsvetkovaTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
