@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ge1Zg0/HcZ7BgfTMWkY23kZROpAuCTLxUP79mkgDcf2sd3FvHSWFotj+6qQj0T+ud+R/t60jObbmavvi3WdE/Q==",
+  "dgSpecHash": "g6mBTA2vhipWFw+dpxaBCNuQ13o0YZPfAxrawVti29kI8vLUUTs3XGM4SV44sqJLaoYVLfXsXr3AEE+UKBS3Rg==",
   "success": true,
   "projectFilePath": "D:\\work\\Новая папка\\DXApplication1\\DXApplication1\\DXApplication1.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.core\\22.1.3\\devexpress.wpf.core.22.1.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.grid.core\\22.1.3\\devexpress.wpf.grid.core.22.1.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.layoutcontrol\\22.1.3\\devexpress.wpf.layoutcontrol.22.1.3.nupkg.sha512",
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.propertygrid\\22.1.3\\devexpress.wpf.propertygrid.22.1.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.themes.all\\22.1.3\\devexpress.wpf.themes.all.22.1.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.themes.dxstyle\\22.1.3\\devexpress.wpf.themes.dxstyle.22.1.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.wpf.themes.lightgray\\22.1.3\\devexpress.wpf.themes.lightgray.22.1.3.nupkg.sha512",

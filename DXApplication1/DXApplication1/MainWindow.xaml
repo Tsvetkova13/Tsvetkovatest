@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:DXApplication1"
     xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
     xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+    xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid"
     x:Class="DXApplication1.MainWindow"
     Title="MainWindow" Height="800" Width="1000">
     <dx:ThemedWindow.DataContext>
@@ -23,9 +24,11 @@
                 </TabItem.Content>
             </TabItem>
             <TabItem Header="Properties">
-                <DataGrid x:Name="stuffGrid" AutoGenerateColumns="True" ItemsSource="{Binding Employees}"></DataGrid>
+                <dxprg:PropertyGridControl SelectedObject="{Binding Employees}">
+                    
+                </dxprg:PropertyGridControl>
             </TabItem>
-            
+
         </TabControl>
        
     </Grid>

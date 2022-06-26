@@ -19,6 +19,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgDevExpress_Wpf_Core Condition=" '$(PkgDevExpress_Wpf_Core)' == '' ">C:\Program Files\DevExpress 22.1\Components\Offline Packages\devexpress.wpf.core\22.1.3</PkgDevExpress_Wpf_Core>
+    <PkgDevExpress_Wpf_PropertyGrid Condition=" '$(PkgDevExpress_Wpf_PropertyGrid)' == '' ">C:\Program Files\DevExpress 22.1\Components\Offline Packages\devexpress.wpf.propertygrid\22.1.3</PkgDevExpress_Wpf_PropertyGrid>
     <PkgDevExpress_Wpf_LayoutControl Condition=" '$(PkgDevExpress_Wpf_LayoutControl)' == '' ">C:\Program Files\DevExpress 22.1\Components\Offline Packages\devexpress.wpf.layoutcontrol\22.1.3</PkgDevExpress_Wpf_LayoutControl>
     <PkgDevExpress_Wpf_Grid_Core Condition=" '$(PkgDevExpress_Wpf_Grid_Core)' == '' ">C:\Program Files\DevExpress 22.1\Components\Offline Packages\devexpress.wpf.grid.core\22.1.3</PkgDevExpress_Wpf_Grid_Core>
   </PropertyGroup>

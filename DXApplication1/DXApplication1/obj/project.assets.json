@@ -167,6 +167,21 @@
           "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v22.1.dll": {}
         }
       },
+      "DevExpress.Wpf.PropertyGrid/22.1.3": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[22.1.3]",
+          "DevExpress.Mvvm": "[22.1.3]",
+          "DevExpress.Printing.Core": "[22.1.3]",
+          "DevExpress.Wpf.Core": "[22.1.3]"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v22.1.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v22.1.dll": {}
+        }
+      },
       "DevExpress.Wpf.Themes.All/22.1.3": {
         "type": "package",
         "dependencies": {
@@ -1135,6 +1150,24 @@
         "lib/netcoreapp3.0/Design/DevExpress.Xpf.LayoutControl.v22.1.DesignTools.v16.10.dll",
         "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v22.1.dll",
         "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v22.1.xml",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DevExpress.Wpf.PropertyGrid/22.1.3": {
+      "sha512": "QPTvtnQ9UkmEYsDEkn6iAValPDRRhd2umBx/sC1n+2kwHm9Esij6vVjjD52EmXMDi2KtD3W7zb7U+kLWrtwFrA==",
+      "type": "package",
+      "path": "devexpress.wpf.propertygrid/22.1.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.wpf.propertygrid.22.1.3.nupkg.sha512",
+        "devexpress.wpf.propertygrid.nuspec",
+        "lib/net452/Design/DevExpress.Xpf.PropertyGrid.v22.1.Design.dll",
+        "lib/net452/DevExpress.Xpf.PropertyGrid.v22.1.dll",
+        "lib/net452/DevExpress.Xpf.PropertyGrid.v22.1.xml",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v22.1.dll",
+        "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v22.1.xml",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
@@ -3002,7 +3035,8 @@
       "DevExpress.Wpf.Core >= 22.1.*-*",
       "DevExpress.Wpf.Themes.All >= 22.1.*-*",
       "devexpress.wpf.grid.core >= 22.1.3",
-      "devexpress.wpf.layoutcontrol >= 22.1.3"
+      "devexpress.wpf.layoutcontrol >= 22.1.3",
+      "devexpress.wpf.propertygrid >= 22.1.3"
     ]
   },
   "packageFolders": {
@@ -3066,6 +3100,10 @@
             "version": "[22.1.3, )"
           },
           "devexpress.wpf.layoutcontrol": {
+            "target": "Package",
+            "version": "[22.1.3, )"
+          },
+          "devexpress.wpf.propertygrid": {
             "target": "Package",
             "version": "[22.1.3, )"
           }

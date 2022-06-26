@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using TsvetkovaTest.Models;
 using TsvetkovaTest.Services;
+using System.Threading.Tasks;
 
 namespace TsvetkovaTest.Controllers
 {
@@ -10,22 +11,49 @@ namespace TsvetkovaTest.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        /// <summary>
+        /// GET-запрос 
+        /// </summary>
+        /// <returns>Данные работников</returns>
         [HttpGet]
-        public DataInput Get()
+        public  async Task Get()
         {
-            DataService dataService = new();
-            return dataService.DataInput();
+            /*var app = builder.Build();
+
+            app.Run(async context =>
+            {
+                var timeService = app.Services.GetService<IEmployeeService>();
+                await context.Response.WriteAsync($"Time: {timeService?.GetTime()}");
+            });
+
+            app.Run();*/
+            /*DataService dataService = new();
+            return dataService.DataInput();*/
 
         }
 
+        /// <summary>
+        /// PUT-запрос. Добавление нового работника в коллекцию
+        /// </summary>
+        /// <returns>Данные работников</returns>
 
-        [HttpPost]
 
-        public DataInput Post()
+        [HttpPut]
+        public async Task Put()
         {
-            DataService dataService = new();
-            return dataService.DataInput();
+            /*DataService dataService = new();
+            return dataService.DataInput();*/
         }
-       
+
+        /// <summary>
+        /// DELTE-запрос. Удаление работника из коллекцию
+        /// </summary>
+        /// <returns>Данные работников</returns>
+        [HttpDelete]
+        public async Task Delete()
+        {
+            /*DataService dataService = new();
+            return dataService.DataInput();*/
+        }
     }
 }

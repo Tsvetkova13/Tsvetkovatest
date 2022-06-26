@@ -26,6 +26,7 @@ namespace DXApplication1
         public MainWindow()
         {
             InitializeComponent();
+            //DataContext = new Employee();
         }
 
         static HttpClient client = new HttpClient();
