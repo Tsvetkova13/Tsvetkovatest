@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TsvetkovaTest.Models;
 using TsvetkovaTest.Services;
 using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TsvetkovaTest.Controllers
 {
@@ -11,22 +12,19 @@ namespace TsvetkovaTest.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        
+        
         /// <summary>
         /// GET-запрос 
         /// </summary>
         /// <returns>Данные работников</returns>
         [HttpGet]
-        public  async Task Get()
+        public  Task<Task> Get()
         {
-            /*var app = builder.Build();
-
-            app.Run(async context =>
-            {
-                var timeService = app.Services.GetService<IEmployeeService>();
-                await context.Response.WriteAsync($"Time: {timeService?.GetTime()}");
-            });
-
-            app.Run();*/
+            IEmployeeService employeeService = HttpContext.RequestServices.GetService<IEmployeeService>();
+            
+             return (Task<Task>)employeeService.StartData();
+            
             /*DataService dataService = new();
             return dataService.DataInput();*/
 

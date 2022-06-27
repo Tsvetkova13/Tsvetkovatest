@@ -10,18 +10,6 @@ namespace TsvetkovaTest.Services
 {
     public class DataService:IEmployeeService
     {
-        static void Start()
-        {
-            var builder = WebApplication.CreateBuilder();
-            builder.Services.AddSingleton<IEmployeeService,DataService>();//добавление сервиса в коллекцию сервисов приложения                                        
-            var app = builder.Build();// создание объекта WebApplication
-
-        }
-
-        
-
-
-
         static readonly ConcurrentDictionary<string, Employee> Stuff = new ConcurrentDictionary<string, Employee>();
         [Produces("application/json")]
 
